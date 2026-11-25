@@ -1,7 +1,7 @@
 """Generate native navigation, linked cards, demo links, and image alternatives."""
 from html import escape
 from svg_canvas import ROOT, SETTINGS
-from portfolio_sections import DATA, PROJECTS, day_label, language_rows
+from portfolio_sections import DATA, PROJECTS, day_label, language_rows, repository_date
 
 
 def picture(name, alt, motion=False, theme=False, width=960):
@@ -42,7 +42,7 @@ def readme():
             if index>start:
                 row.append('&nbsp;')
             facts=DATA["featured"][project["repository"]]
-            alt=f"{facts['name']}: {project['description']} Primary language: {facts['language']}. {facts['stars']} stars; {facts['forks']} forks. Pushed {day_label(facts['pushed_at'])}. Open repository."
+            alt=f"{facts['name']}: {project['description']} Primary language: {facts['language']}. {facts['stars']} stars; {facts['forks']} forks. {repository_date(facts)}. Open repository."
             row += [f'<a href="{escape(facts["url"],quote=True)}">',f'<img src="assets/generated/project-{project["repository"].lower()}.svg" width="400" alt="{escape(alt,quote=True)}">','</a>']
         row.append('</p>');parts.append('\n'.join(row))
     demos=[f"[{project['title']} — live demo]({DATA['featured'][project['repository']]['demo_url']})" for project in PROJECTS if DATA['featured'][project['repository']]['demo_url']]

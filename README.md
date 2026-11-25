@@ -17,7 +17,7 @@ I'm a software engineering student interested in full-stack development, backend
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/stack-mobile.svg">
-  <img src="assets/generated/stack.svg" width="960" alt="Technology groups: Languages: Java, JavaScript, TypeScript; Frontend: React; Backend &amp; data: Spring Boot, MySQL; Project tooling: Git, Maven, Vite">
+  <img src="assets/generated/stack.svg" width="960" alt="Technology groups: Languages: Java, JavaScript, TypeScript, C, C++; Frontend: React; Backend &amp; data: Spring Boot, MySQL; Project tooling: Git, Maven, Vite">
 </picture>
 
 **Technical interests:** Full-stack development · Backend engineering · Useful software products.
@@ -26,7 +26,7 @@ I'm a software engineering student interested in full-stack development, backend
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/projects-header-mobile.svg">
-  <img src="assets/generated/projects-header.svg" width="960" alt="4 selected learning projects. Each project card links to its source repository.">
+  <img src="assets/generated/projects-header.svg" width="960" alt="5 selected learning projects. Each project card links to its source repository.">
 </picture>
 
 <p align="center">
@@ -49,6 +49,12 @@ I'm a software engineering student interested in full-stack development, backend
 </a>
 </p>
 
+<p align="center">
+<a href="https://github.com/Dipesh-Katuwal/Projects_in_C">
+<img src="assets/generated/project-projects_in_c.svg" width="400" alt="Projects_in_C: A collection of C learning projects covering games, utilities, and management systems with file handling. Primary language: C. 0 stars; 0 forks. Updated 23 Jun 2026. Open repository.">
+</a>
+</p>
+
 **Try a project:** [AI resume analyzer — live demo](https://airesumeanalyzer.puter.site/)
 
 <details>
@@ -58,6 +64,7 @@ I'm a software engineering student interested in full-stack development, backend
 - [AiResumeAnalyzer](https://github.com/Dipesh-Katuwal/AiResumeAnalyzer) — Upload a resume, add job details, and receive AI feedback through a typed React and Puter workflow.
 - [DarazClone](https://github.com/Dipesh-Katuwal/DarazClone) — Connect a React storefront to Spring Boot APIs for product management, search, and a cart UI.
 - [EMS](https://github.com/Dipesh-Katuwal/EMS) — Manage employee records through a React client, layered Spring Boot REST API, and MySQL database.
+- [Projects_in_C](https://github.com/Dipesh-Katuwal/Projects_in_C) — A collection of C learning projects covering games, utilities, and management systems with file handling.
 
 </details>
 

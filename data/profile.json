@@ -119,6 +119,22 @@
       "archived": false,
       "demo_url": null,
       "demo_source": null
+    },
+    "Projects_in_C": {
+      "name": "Projects_in_C",
+      "description": "A collection of basic C programming projects created while learning C.",
+      "url": "https://github.com/Dipesh-Katuwal/Projects_in_C",
+      "language": "C",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": null,
+      "updated_at": "2026-06-23T15:05:54Z",
+      "archived": null,
+      "demo_url": null,
+      "demo_source": null,
+      "metadata_checked_at": "2026-11-25T12:46:39+00:00",
+      "metadata_source": "https://github.com/Dipesh-Katuwal/Projects_in_C",
+      "date_source": "https://github.com/Dipesh-Katuwal?tab=repositories"
     }
   },
   "recent_updates": [

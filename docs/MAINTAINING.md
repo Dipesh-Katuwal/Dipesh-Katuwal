@@ -27,7 +27,9 @@ Demo discovery checks `demo_url` in project configuration, then the repository h
 
 `location`, `currently_working_on`, and `currently_learning` start empty because they were not supplied. Empty optional sections are omitted. Fill these with your own statements. Add social links to the `links` array, for example `{"label":"LinkedIn","url":"https://www.linkedin.com/in/YOUR-HANDLE/"}`, or an email link using `mailto:`. Do not publish an address you do not want public. The current GitHub link is the only configured contact method.
 
-The Project tooling group contains Git, Maven, and Vite: tooling evidenced by your workflow and repositories. Add icons under `assets/icons/` and matching entries under `technology_groups`. Icons indicate tools used, not proficiency. The current layout accommodates up to three items per group. Keep typing lines short enough to fit the mobile hero; the generator truncates an overlong line. Use at least one typing line.
+The Project tooling group contains Git, Maven, and Vite: tooling evidenced by your workflow and repositories. Add icons under `assets/icons/` and matching entries under `technology_groups`. Icons indicate tools used, not proficiency. Groups automatically wrap after three items and the panel grows to fit; you can expand existing groups or add new ones. Keep typing lines short enough to fit the mobile hero; the generator truncates an overlong line. Use at least one typing line.
+
+Skills are intentionally owner-maintained: repository language statistics cannot establish everything you know. To add a skill, place its SVG icon in `assets/icons/`, add an item such as `{"icon":"cplusplus","label":"C++"}` to a group's `items`, and rebuild. New categories use the same `label`/`items` structure. The Languages group includes C (supported by `Projects_in_C`) and C++ (confirmed by the owner). Language statistics update from actual public code automatically, so C++ may appear in the toolkit before it appears in that chart.
 
 ### Colors and portrait
 

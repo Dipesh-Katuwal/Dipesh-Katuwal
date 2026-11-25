@@ -34,5 +34,12 @@
     "technologies": ["React", "Spring Boot", "MySQL"],
     "source": "https://github.com/Dipesh-Katuwal/EMS",
     "evidence": "README.md; distinct from the frontend-only Employee-Management-System repository."
+  },
+  {
+    "repository": "Projects_in_C",
+    "title": "C programming projects",
+    "description": "A collection of C learning projects covering games, utilities, and management systems with file handling.",
+    "technologies": ["C"],
+    "evidence": "README.md lists games, utilities, user/bank management systems, and file-handling learning goals. These are learning projects, not actively maintained."
   }
 ]

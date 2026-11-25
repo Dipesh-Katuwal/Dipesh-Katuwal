@@ -17,7 +17,7 @@
   "currently_working_on": [],
   "currently_learning": [],
   "technology_groups": [
-    {"label": "Languages", "items": [{"icon": "java", "label": "Java"}, {"icon": "javascript", "label": "JavaScript"}, {"icon": "typescript", "label": "TypeScript"}]},
+    {"label": "Languages", "items": [{"icon": "java", "label": "Java"}, {"icon": "javascript", "label": "JavaScript"}, {"icon": "typescript", "label": "TypeScript"}, {"icon": "c", "label": "C"}, {"icon": "cplusplus", "label": "C++"}]},
     {"label": "Frontend", "items": [{"icon": "react", "label": "React"}]},
     {"label": "Backend & data", "items": [{"icon": "spring", "label": "Spring Boot"}, {"icon": "mysql", "label": "MySQL"}]},
     {"label": "Project tooling", "items": [{"icon": "git", "label": "Git"}, {"icon": "maven", "label": "Maven"}, {"icon": "vitejs", "label": "Vite"}]}

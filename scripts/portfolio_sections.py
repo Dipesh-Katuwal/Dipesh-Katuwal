@@ -30,6 +30,12 @@ def day_label(value):
     return datetime.fromisoformat(value.replace("Z", "+00:00")).strftime("%d %b %Y")
 
 
+def repository_date(facts):
+    if facts.get("pushed_at"):
+        return "Pushed " + day_label(facts["pushed_at"])
+    return "Updated " + day_label(facts["updated_at"])
+
+
 def fit(c, text, width, size=16, mono=False, weight=500):
     if c.measure(text, size, mono, weight) <= width:
         return text
@@ -110,24 +116,26 @@ def hero(mobile=False, static=False):
 
 def toolkit(mobile=False):
     groups = SETTINGS["technology_groups"]
-    w, rh = (480, 119) if mobile else (960, 65)
-    c = Canvas(w, 146+len(groups)*rh, "Technology stack and project tooling", "; ".join(g["label"] + ": " + ", ".join(i["label"] for i in g["items"]) for g in groups))
+    w = 480 if mobile else 960
+    heights = [40+math.ceil(len(g["items"])/3)*79 if mobile else math.ceil(len(g["items"])/3)*65 for g in groups]
+    c = Canvas(w, 146+sum(heights), "Technology stack and project tooling", "; ".join(g["label"] + ": " + ", ".join(i["label"] for i in g["items"]) for g in groups))
     c.shell(); c.header("01", "STACK.CONFIG", "The toolkit", mobile)
-    for index, group in enumerate(groups):
-        top = 120+index*rh
+    top = 120
+    for group, height in zip(groups, heights):
         c.text(group["label"].upper(), 30, top+(15 if mobile else 31), 11, BLUE, 600, True, .7)
         for i, item in enumerate(group["items"]):
+            column, row = i % 3, i // 3
             if mobile:
-                cw = 420/max(3, len(group["items"]))
-                x = 30+i*cw
-                c.rect(x, top+30, cw-9, 67, "#101822", 10, "#24384c")
-                svg_icon(c, item["icon"], x+12, top+45, 24)
-                c.text(item["label"], x+45, top+61, 13, WHITE, 600)
+                x, y = 30+column*140, top+row*79
+                c.rect(x, y+30, 131, 67, "#101822", 10, "#24384c")
+                svg_icon(c, item["icon"], x+12, y+45, 24)
+                c.text(fit(c, item["label"], 79, 13, weight=600), x+45, y+61, 13, WHITE, 600)
             else:
-                x = 233+i*232
-                c.rect(x, top+1, 215, 49, "#101822", 10, "#24384c")
-                svg_icon(c, item["icon"], x+14, top+12, 27)
-                c.text(item["label"], x+56, top+32, 16, WHITE, 600)
+                x, y = 233+column*232, top+row*65
+                c.rect(x, y+1, 215, 49, "#101822", 10, "#24384c")
+                svg_icon(c, item["icon"], x+14, y+12, 27)
+                c.text(fit(c, item["label"], 145, 16, weight=600), x+56, y+32, 16, WHITE, 600)
+        top += height
     save(c, "stack-mobile.svg" if mobile else "stack.svg")
 
 
@@ -144,7 +152,7 @@ def project_header(mobile=False):
 
 def project_card(project, index):
     facts = DATA["featured"][project["repository"]]
-    c = Canvas(480, 290, facts["name"] + " — " + project["title"], project["description"] + f" Primary language: {facts['language']}. {facts['stars']} stars; {facts['forks']} forks. Last pushed {facts['pushed_at']}.")
+    c = Canvas(480, 290, facts["name"] + " — " + project["title"], project["description"] + f" Primary language: {facts['language']}. {facts['stars']} stars; {facts['forks']} forks. " + repository_date(facts) + ".")
     c.shell()
     c.rect(1, 1, 478, 36, "#151f2c", 21)
     c.rect(1, 22, 478, 15, "#151f2c")
@@ -166,7 +174,7 @@ def project_card(project, index):
     c.text(language, 41, 249, 12, WHITE, 600)
     if SETTINGS["show_repository_counts"]:
         c.text(f"{facts['stars']} stars / {facts['forks']} forks", 456, 249, 11, MUTED, 500, True, align="right")
-    c.text("Pushed " + day_label(facts["pushed_at"]), 24, 273, 10, MUTED, 500, True)
+    c.text(repository_date(facts), 24, 273, 10, MUTED, 500, True)
     c.text("VIEW SOURCE  /", 456, 273, 10, BLUE, 600, True, align="right")
     save(c, f"project-{project['repository'].lower()}.svg")
 

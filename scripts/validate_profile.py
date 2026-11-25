@@ -54,7 +54,8 @@ def main():
     settings = json.loads((ROOT/"data/portfolio.json").read_text(encoding="utf-8"))
     projects = json.loads((ROOT/"data/projects.json").read_text(encoding="utf-8"))
     assert settings["typing_lines"] and len(settings["typing_lines"]) <= 5, "Configure one to five typing lines"
-    assert all(1 <= len(group["items"]) <= 3 for group in settings["technology_groups"]), "Use one to three tools per group"
+    assert all(group["items"] for group in settings["technology_groups"]), "Technology groups must have at least one item"
+    assert all((ROOT/"assets/icons"/(item["icon"]+".svg")).is_file() for group in settings["technology_groups"] for item in group["items"]), "Missing technology icon"
     assert all(re.fullmatch(r'#[0-9a-fA-F]{6}', value) for value in settings["colors"].values()), "Use six-digit hexadecimal colors"
     assert len({p["repository"] for p in projects}) == len(projects), "Duplicate featured repository"
     assert all(len(p.get("technologies", [])) <= 3 for p in projects), "Use up to three labels per project"

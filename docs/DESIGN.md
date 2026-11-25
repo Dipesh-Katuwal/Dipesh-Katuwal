@@ -22,7 +22,9 @@ The refresh uses official public REST endpoints for user data, paginated reposit
 
 ## Content choices
 
-Featured projects remain BillingSoftware, AiResumeAnalyzer, DarazClone, and EMS. Descriptions were checked against their public READMEs and selected dependencies. DarazClone uses H2 and is presented as a practice project with a cart UI, not a production payment system. The AI resume analyzer uses Puter and analyzes the first PDF page; no separate custom backend is claimed. GitHub reports its primary repository language as JavaScript while the curated technology labels also correctly include TypeScript.
+Featured projects include BillingSoftware, AiResumeAnalyzer, DarazClone, EMS, and Projects_in_C. Descriptions were checked against their public READMEs and selected dependencies. DarazClone uses H2 and is presented as a practice project with a cart UI, not a production payment system. The AI resume analyzer uses Puter and analyzes the first PDF page; no separate custom backend is claimed. GitHub reports its primary repository language as JavaScript while the curated technology labels also correctly include TypeScript.
+
+The owner subsequently confirmed C++ knowledge, so C and C++ are both shown in the toolkit. The C collection was checked against its public README and added as a fifth featured project. Technology groups wrap into additional rows as they grow.
 
 No experience, achievements, trophies, job availability, location, social identity, or current-learning claim was invented. Optional profile fields remain empty until the owner supplies them.
 
@@ -37,3 +39,7 @@ No experience, achievements, trophies, job availability, location, social identi
 ## File structure
 
 `data/portfolio.json` and `data/projects.json` are the editorial inputs. `scripts/refresh_data.py` writes the verified snapshot. The shared canvas, section renderers, and README builder generate the display files. A daily/manual workflow fetches, builds, tests, validates, and commits only after every required step succeeds.
+
+## C/C++ expansion verification
+
+The shared unauthenticated API quota was exhausted during this update. The existing complete statistics snapshot was retained. The C card's description, language, stars, and forks were verified through the public repository HTML; its date was taken from the public repository listing and labeled Updated rather than Pushed. That card records its own metadata source and capture time. The authenticated scheduled refresh replaces it with the normal API snapshot. Five linked cards and all 29 SVGs passed validation; the expanded desktop/mobile toolkit and C card were rendered and visually inspected.
