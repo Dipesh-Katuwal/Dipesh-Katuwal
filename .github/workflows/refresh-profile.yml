@@ -25,20 +25,24 @@ jobs:
           cache: pip
       - name: Install SVG generator dependency
         run: python -m pip install -r requirements.txt
-      - name: Fetch verified public activity
+      - name: Fetch verified public portfolio data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/refresh_data.py
-      - name: Render activity panels
-        run: python scripts/build_assets.py --activity-only
+      - name: Rebuild portfolio and README
+        run: python scripts/build_assets.py
+      - name: Verify data calculations
+        run: python -m unittest discover -s scripts -p "test_*.py"
       - name: Validate assets and README
         run: python scripts/validate_profile.py
       - name: Commit successful snapshot
         shell: bash
         run: |
-          git add data/profile.json assets/generated/activity*.svg
+          git add README.md data/profile.json assets/generated
           if git diff --cached --quiet; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update profile activity snapshot"
+          git commit -m "Refresh verified portfolio snapshot"
           git push

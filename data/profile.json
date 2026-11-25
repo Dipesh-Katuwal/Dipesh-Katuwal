@@ -1,7 +1,27 @@
 {
+  "schema_version": 2,
   "username": "Dipesh-Katuwal",
-  "updated_at": "2026-11-25T11:42:46+00:00",
-  "contributions_last_year": 105,
+  "updated_at": "2026-11-25T12:13:34+00:00",
+  "contributions_last_year": 106,
+  "contributions_since_joining": 107,
+  "contributions_by_year": [
+    {
+      "year": 2024,
+      "contributions": 1,
+      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2024-01-01&to=2024-12-31"
+    },
+    {
+      "year": 2025,
+      "contributions": 0,
+      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2025-01-01&to=2025-12-31"
+    },
+    {
+      "year": 2026,
+      "contributions": 106,
+      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2026-01-01&to=2026-11-25"
+    }
+  ],
+  "joined_year": 2024,
   "active_days_in_grid": 35,
   "public_repositories": 12,
   "repositories": [
@@ -18,11 +38,149 @@
     "Projects_in_C",
     "React-BeginnerProjects"
   ],
+  "followers": 5,
+  "following": 6,
+  "stars_on_original_repos": 1,
+  "public_pull_requests": 0,
+  "public_issues": 0,
+  "streak": {
+    "current": 2,
+    "longest_in_grid": 5,
+    "as_of": "2026-11-25",
+    "timezone": "UTC"
+  },
+  "languages": {
+    "JavaScript": 1481410,
+    "CSS": 108268,
+    "TypeScript": 60169,
+    "Java": 58070,
+    "C": 28482,
+    "HTML": 5734,
+    "Dockerfile": 600
+  },
+  "language_repositories": [
+    "BillingSoftware",
+    "EMS",
+    "DarazClone",
+    "AiResumeAnalyzer",
+    "Employee-Management-System",
+    "React-BeginnerProjects",
+    "MusicPlayer",
+    "CryptoWebsite",
+    "MemoryCardGame",
+    "MovieSearchEngiene",
+    "Projects_in_C"
+  ],
+  "featured": {
+    "BillingSoftware": {
+      "name": "BillingSoftware",
+      "description": "A full-stack Retail Billing Software featuring robust item/category management, secure Spring Security authentication, Razorpay payment gateway integration, and a responsive React frontend",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-25T10:22:22Z",
+      "archived": false,
+      "demo_url": null,
+      "demo_source": null
+    },
+    "AiResumeAnalyzer": {
+      "name": "AiResumeAnalyzer",
+      "description": "Building an AI-powered Resume Analyzer with React, React Router, and Puter.js! Create job listings, upload candidate resumes, and use AI to automatically evaluate and match resumes to job requirements.",
+      "url": "https://github.com/Dipesh-Katuwal/AiResumeAnalyzer",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-09-25T16:26:02Z",
+      "archived": false,
+      "demo_url": "https://airesumeanalyzer.puter.site/",
+      "demo_source": "https://raw.githubusercontent.com/Dipesh-Katuwal/AiResumeAnalyzer/main/README.md"
+    },
+    "DarazClone": {
+      "name": "DarazClone",
+      "description": "This is a simple full-stack e-commerce practice project built to learn how a React frontend and a Spring Boot backend work together in a real application.",
+      "url": "https://github.com/Dipesh-Katuwal/DarazClone",
+      "language": "Java",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-10-01T02:57:47Z",
+      "archived": false,
+      "demo_url": null,
+      "demo_source": null
+    },
+    "EMS": {
+      "name": "EMS",
+      "description": "This full-stack Employee Management System is built with Spring Boot and React JS. It utilizes a MySQL database to perform comprehensive CRUD operations on employee data. The architecture follows modern standards, incorporating Spring Data JPA for the backend and with responsive frontend.",
+      "url": "https://github.com/Dipesh-Katuwal/EMS",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-10-10T20:01:32Z",
+      "archived": false,
+      "demo_url": null,
+      "demo_source": null
+    }
+  },
+  "recent_updates": [
+    {
+      "repository": "BillingSoftware",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware",
+      "pushed_at": "2026-11-25T10:22:22Z",
+      "language": "Java"
+    },
+    {
+      "repository": "EMS",
+      "url": "https://github.com/Dipesh-Katuwal/EMS",
+      "pushed_at": "2026-10-10T20:01:32Z",
+      "language": "JavaScript"
+    },
+    {
+      "repository": "DarazClone",
+      "url": "https://github.com/Dipesh-Katuwal/DarazClone",
+      "pushed_at": "2026-10-01T02:57:47Z",
+      "language": "Java"
+    }
+  ],
+  "recent_events": [
+    {
+      "type": "WatchEvent",
+      "repository": "kaomei/stickman-video-director",
+      "created_at": "2026-11-14T11:53:11Z",
+      "url": "https://github.com/kaomei/stickman-video-director",
+      "summary": "Starred repository"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-10-29T16:12:52Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/6dae9c07b074407468c84b99a0e06401e6a2d643",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-10-29T02:27:23Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/46225b860fa691bc8dfd64d80f958a87254504a0",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-10-28T16:17:44Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/9d3982a1d25f77b54a5a1c2f53027fb2f6f9abfe",
+      "summary": "Pushed to main"
+    }
+  ],
+  "events_returned_in_30_days": 4,
   "calendar_start": "2025-11-23",
   "calendar_end": "2026-11-25",
   "sources": [
+    "https://api.github.com/users/Dipesh-Katuwal",
+    "https://api.github.com/users/Dipesh-Katuwal/repos",
     "https://github.com/users/Dipesh-Katuwal/contributions",
-    "https://github.com/Dipesh-Katuwal?tab=repositories"
+    "https://api.github.com/users/Dipesh-Katuwal/events/public?per_page=100",
+    "https://api.github.com/repos/{owner}/{repo}/languages",
+    "https://api.github.com/search/issues"
   ],
   "days": [
     {

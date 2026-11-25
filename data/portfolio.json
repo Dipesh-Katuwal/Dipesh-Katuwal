@@ -1,0 +1,38 @@
+{
+  "username": "Dipesh-Katuwal",
+  "name": "Dipesh Katuwal",
+  "identity": "Software Engineering Student",
+  "role": "Aspiring Full-Stack Developer",
+  "introduction": "I'm a software engineering student interested in full-stack development, backend engineering, and building useful software products. My projects connect React interfaces with Spring Boot REST APIs and databases.",
+  "typing_lines": [
+    "Connecting interfaces, APIs, and data.",
+    "Building useful software products.",
+    "Learning through full-stack projects."
+  ],
+  "location": null,
+  "links": [
+    {"label": "GitHub", "url": "https://github.com/Dipesh-Katuwal"}
+  ],
+  "interests": ["Full-stack development", "Backend engineering", "Useful software products"],
+  "currently_working_on": [],
+  "currently_learning": [],
+  "technology_groups": [
+    {"label": "Languages", "items": [{"icon": "java", "label": "Java"}, {"icon": "javascript", "label": "JavaScript"}, {"icon": "typescript", "label": "TypeScript"}]},
+    {"label": "Frontend", "items": [{"icon": "react", "label": "React"}]},
+    {"label": "Backend & data", "items": [{"icon": "spring", "label": "Spring Boot"}, {"icon": "mysql", "label": "MySQL"}]},
+    {"label": "Project tooling", "items": [{"icon": "git", "label": "Git"}, {"icon": "maven", "label": "Maven"}, {"icon": "vitejs", "label": "Vite"}]}
+  ],
+  "language_exclusions": ["Dipesh-Katuwal"],
+  "show_repository_counts": true,
+  "colors": {
+    "background": "#0d1117",
+    "surface": "#101822",
+    "text": "#e6edf3",
+    "muted": "#a7b2bf",
+    "accent": "#58a6ff",
+    "border": "#316c98",
+    "blue_glow": "#397ec5",
+    "green_glow": "#3fb950",
+    "violet_glow": "#a371f7"
+  }
+}
