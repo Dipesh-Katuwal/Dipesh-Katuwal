@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "BillingSoftware",
+    "title": "Retail billing software",
+    "category": "FULL-STACK / JAVA",
+    "description": "A retail billing application with a React interface, Spring Boot backend, and secure authentication.",
+    "technologies": ["React", "Spring Boot", "MySQL"],
+    "source": "https://github.com/Dipesh-Katuwal/BillingSoftware",
+    "evidence": "Repository description, react_frontend/package.json, and spring_backend/pom.xml."
+  },
+  {
+    "repository": "AiResumeAnalyzer",
+    "title": "AI resume analyzer",
+    "category": "WEB APPLICATION / TYPESCRIPT",
+    "description": "Upload a resume, add job details, and receive AI feedback through a typed React and Puter workflow.",
+    "technologies": ["React", "TypeScript", "Puter.js"],
+    "source": "https://github.com/Dipesh-Katuwal/AiResumeAnalyzer",
+    "evidence": "README.md and package.json; AI analysis uses the first PDF page."
+  },
+  {
+    "repository": "DarazClone",
+    "title": "Daraz e-commerce practice",
+    "category": "FULL-STACK / REST API",
+    "description": "Connect a React storefront to Spring Boot APIs for product management, search, and a cart UI.",
+    "technologies": ["React", "Spring Boot", "H2"],
+    "source": "https://github.com/Dipesh-Katuwal/DarazClone",
+    "evidence": "README.md; a learning project with an H2 in-memory database and a cart/checkout UI, not payment processing."
+  },
+  {
+    "repository": "EMS",
+    "title": "Employee management",
+    "category": "FULL-STACK / DATABASE",
+    "description": "Manage employee records through a React client, layered Spring Boot REST API, and MySQL database.",
+    "technologies": ["React", "Spring Boot", "MySQL"],
+    "source": "https://github.com/Dipesh-Katuwal/EMS",
+    "evidence": "README.md; distinct from the frontend-only Employee-Management-System repository."
+  }
+]

@@ -1,0 +1,44 @@
+name: Refresh profile activity
+
+on:
+  schedule:
+    # 06:00 in Nepal (UTC+05:45). GitHub schedules can run later under load.
+    - cron: '15 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install SVG generator dependency
+        run: python -m pip install -r requirements.txt
+      - name: Fetch verified public activity
+        run: python scripts/refresh_data.py
+      - name: Render activity panels
+        run: python scripts/build_assets.py --activity-only
+      - name: Validate assets and README
+        run: python scripts/validate_profile.py
+      - name: Commit successful snapshot
+        shell: bash
+        run: |
+          git add data/profile.json assets/generated/activity*.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update profile activity snapshot"
+          git push
