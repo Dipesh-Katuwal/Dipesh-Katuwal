@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "username": "Dipesh-Katuwal",
-  "updated_at": "2026-11-25T12:13:34+00:00",
-  "contributions_last_year": 106,
-  "contributions_since_joining": 107,
+  "updated_at": "2026-11-26T08:13:11+00:00",
+  "contributions_last_year": 108,
+  "contributions_since_joining": 109,
   "contributions_by_year": [
     {
       "year": 2024,
@@ -17,8 +17,8 @@
     },
     {
       "year": 2026,
-      "contributions": 106,
-      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2026-01-01&to=2026-11-25"
+      "contributions": 108,
+      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2026-01-01&to=2026-11-26"
     }
   ],
   "joined_year": 2024,
@@ -46,7 +46,7 @@
   "streak": {
     "current": 2,
     "longest_in_grid": 5,
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "timezone": "UTC"
   },
   "languages": {
@@ -127,14 +127,10 @@
       "language": "C",
       "stars": 0,
       "forks": 0,
-      "pushed_at": null,
-      "updated_at": "2026-06-23T15:05:54Z",
-      "archived": null,
+      "pushed_at": "2026-06-23T15:05:54Z",
+      "archived": false,
       "demo_url": null,
-      "demo_source": null,
-      "metadata_checked_at": "2026-11-25T12:46:39+00:00",
-      "metadata_source": "https://github.com/Dipesh-Katuwal/Projects_in_C",
-      "date_source": "https://github.com/Dipesh-Katuwal?tab=repositories"
+      "demo_source": null
     }
   },
   "recent_updates": [
@@ -159,37 +155,37 @@
   ],
   "recent_events": [
     {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/Dipesh-Katuwal",
+      "created_at": "2026-11-25T12:51:21Z",
+      "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/85941e0f2ce2a61f83a76a43283f7c173f27dc90",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/Dipesh-Katuwal",
+      "created_at": "2026-11-25T11:53:08Z",
+      "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/a197cc94a33efc0e731b4e42e7109a18b8e5b930",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-11-25T08:51:06Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/6aa391a3966921a8fdc85c852c56394406e9da75",
+      "summary": "Pushed to main"
+    },
+    {
       "type": "WatchEvent",
       "repository": "kaomei/stickman-video-director",
       "created_at": "2026-11-14T11:53:11Z",
       "url": "https://github.com/kaomei/stickman-video-director",
       "summary": "Starred repository"
-    },
-    {
-      "type": "PushEvent",
-      "repository": "Dipesh-Katuwal/BillingSoftware",
-      "created_at": "2026-10-29T16:12:52Z",
-      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/6dae9c07b074407468c84b99a0e06401e6a2d643",
-      "summary": "Pushed to main"
-    },
-    {
-      "type": "PushEvent",
-      "repository": "Dipesh-Katuwal/BillingSoftware",
-      "created_at": "2026-10-29T02:27:23Z",
-      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/46225b860fa691bc8dfd64d80f958a87254504a0",
-      "summary": "Pushed to main"
-    },
-    {
-      "type": "PushEvent",
-      "repository": "Dipesh-Katuwal/BillingSoftware",
-      "created_at": "2026-10-28T16:17:44Z",
-      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/9d3982a1d25f77b54a5a1c2f53027fb2f6f9abfe",
-      "summary": "Pushed to main"
     }
   ],
-  "events_returned_in_30_days": 4,
+  "events_returned_in_30_days": 7,
   "calendar_start": "2025-11-23",
-  "calendar_end": "2026-11-25",
+  "calendar_end": "2026-11-26",
   "sources": [
     "https://api.github.com/users/Dipesh-Katuwal",
     "https://api.github.com/users/Dipesh-Katuwal/repos",
@@ -1669,7 +1665,11 @@
     },
     {
       "date": "2026-11-25",
-      "level": 3
+      "level": 4
+    },
+    {
+      "date": "2026-11-26",
+      "level": 0
     }
   ]
 }

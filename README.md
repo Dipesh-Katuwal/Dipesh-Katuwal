@@ -51,7 +51,7 @@ I'm a software engineering student interested in full-stack development, backend
 
 <p align="center">
 <a href="https://github.com/Dipesh-Katuwal/Projects_in_C">
-<img src="assets/generated/project-projects_in_c.svg" width="400" alt="Projects_in_C: A collection of C learning projects covering games, utilities, and management systems with file handling. Primary language: C. 0 stars; 0 forks. Updated 23 Jun 2026. Open repository.">
+<img src="assets/generated/project-projects_in_c.svg" width="400" alt="Projects_in_C: A collection of C learning projects covering games, utilities, and management systems with file handling. Primary language: C. 0 stars; 0 forks. Pushed 23 Jun 2026. Open repository.">
 </a>
 </p>
 
@@ -72,7 +72,7 @@ I'm a software engineering student interested in full-stack development, backend
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/statistics-mobile.svg">
-  <img src="assets/generated/statistics.svg" width="960" alt="107 contributions since joining in 2024, 12 public repositories, 5 followers, 6 following, 1 stars on original public repositories, 0 public pull requests, 0 public issues, and a 2-day current streak. Snapshot 25 Nov 2026 UTC.">
+  <img src="assets/generated/statistics.svg" width="960" alt="109 contributions since joining in 2024, 12 public repositories, 5 followers, 6 following, 1 stars on original public repositories, 0 public pull requests, 0 public issues, and a 2-day current streak. Snapshot 26 Nov 2026 UTC.">
 </picture>
 
 <picture>
@@ -90,10 +90,10 @@ I'm a software engineering student interested in full-stack development, backend
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/generated/calendar-mobile-light.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/generated/calendar-light.svg">
   <source media="(max-width: 600px)" srcset="assets/generated/calendar-mobile.svg">
-  <img src="assets/generated/calendar.svg" width="960" alt="106 contributions in the last year; 35 active days and longest streak of 5 days in the displayed calendar. Real GitHub intensity levels with month and weekday labels.">
+  <img src="assets/generated/calendar.svg" width="960" alt="108 contributions in the last year; 35 active days and longest streak of 5 days in the displayed calendar. Real GitHub intensity levels with month and weekday labels.">
 </picture>
 
-**Contributions by year:** [2024: 1](https://github.com/Dipesh-Katuwal?tab=overview&from=2024-01-01&to=2024-12-31) · [2025: 0](https://github.com/Dipesh-Katuwal?tab=overview&from=2025-01-01&to=2025-12-31) · [2026: 106](https://github.com/Dipesh-Katuwal?tab=overview&from=2026-01-01&to=2026-12-31)
+**Contributions by year:** [2024: 1](https://github.com/Dipesh-Katuwal?tab=overview&from=2024-01-01&to=2024-12-31) · [2025: 0](https://github.com/Dipesh-Katuwal?tab=overview&from=2025-01-01&to=2025-12-31) · [2026: 108](https://github.com/Dipesh-Katuwal?tab=overview&from=2026-01-01&to=2026-12-31)
 
 [Open GitHub contribution history](https://github.com/Dipesh-Katuwal?tab=overview) · [Static calendar](assets/generated/calendar-static.svg)
 
@@ -115,10 +115,10 @@ I'm a software engineering student interested in full-stack development, backend
 
 **Public events returned in the last 30 days**
 
+- 2026-11-25 — [Pushed to main · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/85941e0f2ce2a61f83a76a43283f7c173f27dc90)
+- 2026-11-25 — [Pushed to main · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/a197cc94a33efc0e731b4e42e7109a18b8e5b930)
+- 2026-11-25 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/6aa391a3966921a8fdc85c852c56394406e9da75)
 - 2026-11-14 — [Starred repository · kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director)
-- 2026-10-29 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/6dae9c07b074407468c84b99a0e06401e6a2d643)
-- 2026-10-29 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/46225b860fa691bc8dfd64d80f958a87254504a0)
-- 2026-10-28 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/9d3982a1d25f77b54a5a1c2f53027fb2f6f9abfe)
 
 </details>
 
@@ -131,4 +131,4 @@ I'm a software engineering student interested in full-stack development, backend
 
 [GitHub](https://github.com/Dipesh-Katuwal)
 
-<sub>Public GitHub snapshot · Updated 25 Nov 2026 UTC · Generated daily; GitHub may cache images.</sub>
+<sub>Public GitHub snapshot · Updated 26 Nov 2026 UTC · Generated daily; GitHub may cache images.</sub>
