@@ -31,7 +31,7 @@ I'm a software engineering student interested in full-stack development, backend
 
 <p align="center">
 <a href="https://github.com/Dipesh-Katuwal/BillingSoftware">
-<img src="assets/generated/project-billingsoftware.svg" width="400" alt="BillingSoftware: A retail billing application with a React interface, Spring Boot backend, and secure authentication. Primary language: JavaScript. 0 stars; 0 forks. Pushed 26 Nov 2026. Open repository.">
+<img src="assets/generated/project-billingsoftware.svg" width="400" alt="BillingSoftware: A retail billing application with a React interface, Spring Boot backend, and secure authentication. Primary language: Java. 0 stars; 0 forks. Pushed 28 Nov 2026. Open repository.">
 </a>
 &nbsp;
 <a href="https://github.com/Dipesh-Katuwal/AiResumeAnalyzer">
@@ -72,12 +72,12 @@ I'm a software engineering student interested in full-stack development, backend
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/statistics-mobile.svg">
-  <img src="assets/generated/statistics.svg" width="960" alt="113 contributions since joining in 2024, 12 public repositories, 5 followers, 6 following, 1 stars on original public repositories, 0 public pull requests, 0 public issues, and a 3-day current streak. Snapshot 27 Nov 2026 UTC.">
+  <img src="assets/generated/statistics.svg" width="960" alt="115 contributions since joining in 2024, 12 public repositories, 5 followers, 6 following, 1 stars on original public repositories, 0 public pull requests, 0 public issues, and a 5-day current streak. Snapshot 28 Nov 2026 UTC.">
 </picture>
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/languages-mobile.svg">
-  <img src="assets/generated/languages.svg" width="960" alt="Most-used languages by public source-code bytes: JavaScript 84.7%, CSS 6.7%, TypeScript 3.4%, Java 3.3%, C 1.6%, Other 0.4%. Excludes forks and generated profile code; not a proficiency rating.">
+  <img src="assets/generated/languages.svg" width="960" alt="Most-used languages by public source-code bytes: JavaScript 84.0%, CSS 6.7%, Java 3.9%, TypeScript 3.4%, C 1.6%, Other 0.4%. Excludes forks and generated profile code; not a proficiency rating.">
 </picture>
 
 ## Contribution history
@@ -90,10 +90,10 @@ I'm a software engineering student interested in full-stack development, backend
   <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/generated/calendar-mobile-light.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/generated/calendar-light.svg">
   <source media="(max-width: 600px)" srcset="assets/generated/calendar-mobile.svg">
-  <img src="assets/generated/calendar.svg" width="960" alt="112 contributions in the last year; 36 active days and longest streak of 5 days in the displayed calendar. Real GitHub intensity levels with month and weekday labels.">
+  <img src="assets/generated/calendar.svg" width="960" alt="114 contributions in the last year; 38 active days and longest streak of 5 days in the displayed calendar. Real GitHub intensity levels with month and weekday labels.">
 </picture>
 
-**Contributions by year:** [2024: 1](https://github.com/Dipesh-Katuwal?tab=overview&from=2024-01-01&to=2024-12-31) · [2025: 0](https://github.com/Dipesh-Katuwal?tab=overview&from=2025-01-01&to=2025-12-31) · [2026: 112](https://github.com/Dipesh-Katuwal?tab=overview&from=2026-01-01&to=2026-12-31)
+**Contributions by year:** [2024: 1](https://github.com/Dipesh-Katuwal?tab=overview&from=2024-01-01&to=2024-12-31) · [2025: 0](https://github.com/Dipesh-Katuwal?tab=overview&from=2025-01-01&to=2025-12-31) · [2026: 114](https://github.com/Dipesh-Katuwal?tab=overview&from=2026-01-01&to=2026-12-31)
 
 [Open GitHub contribution history](https://github.com/Dipesh-Katuwal?tab=overview) · [Static calendar](assets/generated/calendar-static.svg)
 
@@ -109,16 +109,16 @@ I'm a software engineering student interested in full-stack development, backend
 
 **Repository updates**
 
-- 2026-11-26 — [BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware)
+- 2026-11-28 — [BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware)
 - 2026-10-10 — [EMS](https://github.com/Dipesh-Katuwal/EMS)
 - 2026-10-01 — [DarazClone](https://github.com/Dipesh-Katuwal/DarazClone)
 
 **Public events returned in the last 30 days**
 
+- 2026-11-26 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/3158c35d1671ef8ee52dd6174a3ee3b480f243a1)
+- 2026-11-26 — [Pushed to main · Dipesh-Katuwal/BillingSoftware](https://github.com/Dipesh-Katuwal/BillingSoftware/commit/904d7dea833ff7166127cef3ca1647676e0c9399)
 - 2026-11-25 — [Pushed to main · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/85941e0f2ce2a61f83a76a43283f7c173f27dc90)
 - 2026-11-25 — [Pushed to main · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/4ee6f022eaa50c36ece20b9a4fee9342f1326901)
-- 2026-11-25 — [Pushed to main · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/a197cc94a33efc0e731b4e42e7109a18b8e5b930)
-- 2026-11-25 — [Created branch · Dipesh-Katuwal/Dipesh-Katuwal](https://github.com/Dipesh-Katuwal/Dipesh-Katuwal)
 
 </details>
 
@@ -131,4 +131,4 @@ I'm a software engineering student interested in full-stack development, backend
 
 [GitHub](https://github.com/Dipesh-Katuwal)
 
-<sub>Public GitHub snapshot · Updated 27 Nov 2026 UTC · Generated daily; GitHub may cache images.</sub>
+<sub>Public GitHub snapshot · Updated 28 Nov 2026 UTC · Generated daily; GitHub may cache images.</sub>

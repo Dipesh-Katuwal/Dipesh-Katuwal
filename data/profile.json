@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "username": "Dipesh-Katuwal",
-  "updated_at": "2026-11-27T08:25:34+00:00",
-  "contributions_last_year": 112,
-  "contributions_since_joining": 113,
+  "updated_at": "2026-11-28T07:44:11+00:00",
+  "contributions_last_year": 114,
+  "contributions_since_joining": 115,
   "contributions_by_year": [
     {
       "year": 2024,
@@ -17,12 +17,12 @@
     },
     {
       "year": 2026,
-      "contributions": 112,
-      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2026-01-01&to=2026-11-27"
+      "contributions": 114,
+      "source": "https://github.com/users/Dipesh-Katuwal/contributions?from=2026-01-01&to=2026-11-28"
     }
   ],
   "joined_year": 2024,
-  "active_days_in_grid": 36,
+  "active_days_in_grid": 38,
   "public_repositories": 12,
   "repositories": [
     "AiResumeAnalyzer",
@@ -44,16 +44,16 @@
   "public_pull_requests": 0,
   "public_issues": 0,
   "streak": {
-    "current": 3,
+    "current": 5,
     "longest_in_grid": 5,
-    "as_of": "2026-11-27",
+    "as_of": "2026-11-28",
     "timezone": "UTC"
   },
   "languages": {
-    "JavaScript": 1495332,
-    "CSS": 117856,
+    "JavaScript": 1497448,
+    "CSS": 119905,
+    "Java": 70079,
     "TypeScript": 60169,
-    "Java": 58070,
     "C": 28482,
     "HTML": 5734,
     "Dockerfile": 600
@@ -76,10 +76,10 @@
       "name": "BillingSoftware",
       "description": "A full-stack Retail Billing Software featuring robust item/category management, secure Spring Security authentication, Razorpay payment gateway integration, and a responsive React frontend",
       "url": "https://github.com/Dipesh-Katuwal/BillingSoftware",
-      "language": "JavaScript",
+      "language": "Java",
       "stars": 0,
       "forks": 0,
-      "pushed_at": "2026-11-26T16:12:26Z",
+      "pushed_at": "2026-11-28T03:38:55Z",
       "archived": false,
       "demo_url": null,
       "demo_source": null
@@ -137,8 +137,8 @@
     {
       "repository": "BillingSoftware",
       "url": "https://github.com/Dipesh-Katuwal/BillingSoftware",
-      "pushed_at": "2026-11-26T16:12:26Z",
-      "language": "JavaScript"
+      "pushed_at": "2026-11-28T03:38:55Z",
+      "language": "Java"
     },
     {
       "repository": "EMS",
@@ -156,6 +156,20 @@
   "recent_events": [
     {
       "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-11-26T16:07:55Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/3158c35d1671ef8ee52dd6174a3ee3b480f243a1",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
+      "repository": "Dipesh-Katuwal/BillingSoftware",
+      "created_at": "2026-11-26T10:15:31Z",
+      "url": "https://github.com/Dipesh-Katuwal/BillingSoftware/commit/904d7dea833ff7166127cef3ca1647676e0c9399",
+      "summary": "Pushed to main"
+    },
+    {
+      "type": "PushEvent",
       "repository": "Dipesh-Katuwal/Dipesh-Katuwal",
       "created_at": "2026-11-25T12:51:21Z",
       "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/85941e0f2ce2a61f83a76a43283f7c173f27dc90",
@@ -167,25 +181,11 @@
       "created_at": "2026-11-25T12:37:26Z",
       "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/4ee6f022eaa50c36ece20b9a4fee9342f1326901",
       "summary": "Pushed to main"
-    },
-    {
-      "type": "PushEvent",
-      "repository": "Dipesh-Katuwal/Dipesh-Katuwal",
-      "created_at": "2026-11-25T11:53:08Z",
-      "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal/commit/a197cc94a33efc0e731b4e42e7109a18b8e5b930",
-      "summary": "Pushed to main"
-    },
-    {
-      "type": "CreateEvent",
-      "repository": "Dipesh-Katuwal/Dipesh-Katuwal",
-      "created_at": "2026-11-25T11:27:40Z",
-      "url": "https://github.com/Dipesh-Katuwal/Dipesh-Katuwal",
-      "summary": "Created branch"
     }
   ],
   "events_returned_in_30_days": 9,
   "calendar_start": "2025-11-23",
-  "calendar_end": "2026-11-27",
+  "calendar_end": "2026-11-28",
   "sources": [
     "https://api.github.com/users/Dipesh-Katuwal",
     "https://api.github.com/users/Dipesh-Katuwal/repos",
@@ -1673,7 +1673,11 @@
     },
     {
       "date": "2026-11-27",
-      "level": 0
+      "level": 1
+    },
+    {
+      "date": "2026-11-28",
+      "level": 1
     }
   ]
 }
